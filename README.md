@@ -1,21 +1,36 @@
-# Placement_cell-Management-System-by-using-swing-Java-
-<h1>Placement Cell management Project:</h1>
-<p><span>Aim:-</span> 1. To provide a bug-free Placement management system to the Students as well as Admin.<br>
-2. The main objective here is to replace the manual process of registering for campus placement and then apply for each job by waiting in the queue.<br>
-3.To maintain a record of Jobs applied by students, so it will be easy to access.</p>
-<p><span>Tech stack:</span>Swing(JAVA),MySQL</p>
-<h3>Project Main Features:<h3>
-<p>-Login Panel</p>
-<p>-Student Panel</p>
-<p>-Company Panel</p>
-<p>-Search panel</p>
-<p>-Management Panel</p>
-<h2>you can do the following things in this project:-<h2>
-<ul>
-<li>Adding company</li>
-<li>Adding Student</li>
-<li>Adding Training Company</li>
-<li>Syncing your updates online</li>
-<li>backing up database</li>
-</ul>
-<p style="text-align:center">-----------</p>
+<h1>Placement Management System 🎓💼</h1>
+ <h2>🚀Overview</h2>
+A Java-based desktop application designed to streamline the placement process for students. This system allows easy tracking of student placements, including company details, CTC, and academic records. It provides a comprehensive ledger view that integrates both academic and placement data for effective management.
+
+ <h2>⚡Key Features</h2>
+<h3>Search Students by Branch:</h3> Filter students based on their branch.
+<h3>Search by Company: </h3>Find students placed in specific companies.
+<h3>USN Search: </h3>Look up students using their unique USN.
+<h3>Detailed Placement Ledger:</h3> Combines academic and placement details for each student.
+<h3>User-Friendly Interface:</h3> Built with Java Swing for a smooth experience.
+<h3>Dynamic Reports:</h3> Generates a detailed ledger report showing student details and placement info.
+  
+<h1>🔧 Technologies Used</h1>
+Java Swing (AWT) for GUI <br>
+BufferedReader & BufferedWriter for handling text file operations
+
+<h2>🗂 Project Structure</h2>
+<h3>Student Data: </h3>Stored in student.txt (name, USN, branch, CGPA).
+<h3>Placement Data:</h3> Stored in journal.txt (company, CTC, comments).
+<h3>Ledger Generation:</h3> Merges data from student and placement files into a cohesive report.
+  
+<h2>📝 How It Works</h2>
+<h3>Integrates Data:</h3> Merges student academic data with placement information based on USN.
+<h3>Search:</h3> Use various filters to search for students by branch, company, or USN.
+<h3>Ledger Generation:</h3> Displays a detailed report combining both academic and placement data.
+
+<h1>🚀 Usage Instructions</h1>
+<h2>1.Clone the repository:</h2>
+<h3>bash:</h3>
+git clone https://github.com/yourusername/placement-management-system.git
+
+<h2>2.Navigate to the project folder and compile:</h2>
+<h3>bash:</h3>
+javac Ledger.java<br>
+java Ledger
+<h2>3.Search for student records and view the placement ledger.</h2>
